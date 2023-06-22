@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/c971de6966.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./main.js"></script>
   </head>
   <body>
     <!-- header -->
@@ -23,10 +24,19 @@
             <a class="link" href="#">Images</a>
           </li>
           <li>
-            <a class="menu-icon" href="#"><i class="fa-solid fa-bars"></i></a>
+            <div class="circle-shadow">
+              <a class="menu-icon" href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
           </li>
           <li>
-            <a class="user-icon" href="#"><span>J</span></a>
+            <div class="circle-shadow">
+              <a
+                class="user-icon"
+                target="_blank"
+                href="https://chrisportfolioapp.netlify.app/"
+                ><span>cris</span></a
+              >
+            </div>
           </li>
         </ul>
       </nav>
@@ -38,11 +48,11 @@
         <img class="logo-img" src="./images/logo.png" alt="Google logo image" />
         <div class="search-bar">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <input class="search-input" type="text" />
+          <input id="search-input" class="search-input" type="text" />
           <i class="fa-solid fa-microphone"></i>
           <i class="fa-solid fa-keyboard"></i>
         </div>
-        <div class="serch-btns">
+        <div class="search-btns">
           <button class="google-search-btn">Google Search</button>
           <button class="lucky-search-btn">I'm feeling lucky</button>
         </div>
